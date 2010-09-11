@@ -1,0 +1,10 @@
+# Build related files
+build/*
+
+# User profile related files on XCode 3.X
+*.pbxuser
+*.mode1v3
+*.DS_Store
+#User profile related files on XCode 4
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+
