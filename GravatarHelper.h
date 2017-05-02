@@ -12,5 +12,7 @@
 @interface GravatarHelper : NSObject {
 
 }
-+ (NSURL*) getGravatarURL:(NSString*) emailAddress;
+
++ (nullable NSURL*) getGravatarURL:(nonnull NSString*) emailAddress;
+
 @end
